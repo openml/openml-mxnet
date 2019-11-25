@@ -1,1 +1,1 @@
-openml-mxnet
+# MXNet extension for openml-python
