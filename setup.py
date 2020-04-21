@@ -40,7 +40,7 @@ setuptools.setup(name="openml-mxnet",
                  python_requires=">=3.5",
                  install_requires=[
                      'openml',
-                     'mxnet==1.4.1'
+                     'mxnet=>1.4.1'
                  ],
                  classifiers=['Intended Audience :: Science/Research',
                               'Intended Audience :: Developers',

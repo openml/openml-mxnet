@@ -9,14 +9,14 @@ import mxnet
 import mxnet.gluon
 
 import openml
-import openml.extensions.mxnet
+import openml_mxnet
 
 import logging
 
 ############################################################################
 # Enable logging in order to observe the progress while running the example.
 openml.config.logger.setLevel(logging.DEBUG)
-openml.extensions.mxnet.config.logger.setLevel(logging.DEBUG)
+openml_mxnet.config.logger.setLevel(logging.DEBUG)
 ############################################################################
 
 ############################################################################
