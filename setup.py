@@ -16,7 +16,7 @@ with open(os.path.join("README.md")) as fid:
     README = fid.read()
 
 setuptools.setup(name="openml-mxnet",
-                 version = "0.0.1",
+                 version = "0.0.2",
                  author=" ",
                  author_email="",
                  maintainer="Prabhant Singh",
@@ -40,7 +40,7 @@ setuptools.setup(name="openml-mxnet",
                  python_requires=">=3.5",
                  install_requires=[
                      'openml',
-                     'mxnet=>1.4.1'
+                     'mxnet>=1.4.1'
                  ],
                  classifiers=['Intended Audience :: Science/Research',
                               'Intended Audience :: Developers',
